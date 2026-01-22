@@ -2,9 +2,8 @@ module rca_tb;
 reg [3:0] a,b;
 wire [3:0]s;
 wire cout;
-wire[2:0] c;
 
-rippleCarryAdder DUT(a,b,c,s,cout);
+rippleCarryAdder DUT(a,b,s,cout);
 
 initial
 begin
