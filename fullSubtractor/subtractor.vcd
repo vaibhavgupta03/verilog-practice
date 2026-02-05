@@ -1,11 +1,11 @@
 $date
-	Fri Jan 23 15:48:57 2026
+	Thu Feb 05 15:52:27 2026
 $end
 $version
 	Icarus Verilog
 $end
 $timescale
-	1s
+	100ps
 $end
 $scope module fullSubtractor_tb $end
 $var wire 1 ! diff $end
@@ -51,37 +51,37 @@ $dumpvars
 0"
 0!
 $end
-#10
+#100
 1"
 1!
 1&
 1%
-#20
+#200
 0&
 1(
 1'
 0%
 1$
-#30
+#300
 0!
 1%
-#40
+#400
 0"
 1!
 0'
 0%
 0$
 1#
-#50
+#500
 0!
 1%
-#60
+#600
 0(
 0%
 1$
-#70
+#700
 1"
 1!
 1&
 1%
-#80
+#800
