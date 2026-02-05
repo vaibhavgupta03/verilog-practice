@@ -1,3 +1,4 @@
+`include "fullSubtractor.v"
 `timescale 1ns/100ps
 module fullSubtractor_tb;
 reg a,b,c;
