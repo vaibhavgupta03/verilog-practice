@@ -1,5 +1,5 @@
 `timescale 1ns / 1ps
-
+`include "selfStartingRingCounter.v"
 module ring_testbench;
     reg clk;
     reg reset;
